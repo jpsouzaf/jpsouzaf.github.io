@@ -1,0 +1,35 @@
+#container{
+	width: 1200px;
+	height: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border:2px; 
+}
+#topo{
+	height: 150px;
+	background-color: blue
+}
+#tituloLogo{
+	float: left;
+}
+#menu{
+	height: 50px;
+	background-color: gray;
+}
+#menuPrincipal{
+	float: left;
+	display: inline-block;
+
+}
+#corpo{
+	height: 880px;
+	background-color: orange;
+
+}
+#rodape{
+	background-color: black;
+
+}
+
