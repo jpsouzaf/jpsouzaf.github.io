@@ -32,4 +32,39 @@
 	background-color: black;
 
 }
+#slides{
+	overflow: hidden;
+}
+#slides figure {
+	position: relative;
+	width:500% ;
+	margin:2px;
+	left:auto; ;
+	animation: 20s slides infinite;
+}
+#slides figure img {
+	width:20% ;
+	float: left;
+}
+@keyframes {
+	0% {
+		left: 0;
+	}
+	30% {
+		left: 0;
+	}
+	35% {
+		left: -100;
+	}
+	65% {
+		left: -100;
+	}
+	70% {
+		left: -200;
+	}
+	100% {
+		left: -200;
+	}
+
+}
 
