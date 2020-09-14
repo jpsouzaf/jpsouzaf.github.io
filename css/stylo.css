@@ -17,11 +17,27 @@
 #menu{
 	height: 50px;
 	background-color: gray;
+	list-style: none;
 }
-#menuPrincipal{
-	float: left;
-	display: inline-block;
+#interesses{
+	background-color:  lightgreen
+	
 
+
+
+}
+#experiencias{
+	background-color:  lightgreen
+	
+
+}
+#menu ul {
+	list-style: none;
+}
+#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 2px;
 }
 #corpo{
 	height: 880px;
@@ -38,33 +54,33 @@
 #slides figure {
 	position: relative;
 	width:500% ;
-	margin:2px;
-	left:auto; ;
+	margin:0;
+	left:0 ;
 	animation: 20s slides infinite;
 }
-#slides figure img {
+#slides figure  img {
 	width:20% ;
 	float: left;
 }
-@keyframes {
+@keyframes  slides {
 	0% {
-		left: 0;
+		left: 0%;
 	}
 	30% {
-		left: 0;
+		left: 0%;
 	}
 	35% {
-		left: -100;
+		left: -100%;
 	}
 	65% {
-		left: -100;
+		left: -100%;
 	}
 	70% {
-		left: -200;
+		left: -200%;
 	}
 	100% {
-		left: -200;
+		left: -200%;
 	}
+	
 
 }
-
