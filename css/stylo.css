@@ -1,5 +1,5 @@
 #container{
-	width: 1200px;
+	width: 1300px;
 	height: 1100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -7,23 +7,26 @@
 	margin-bottom: 20px;
 	border:2px; 
 }
+
 #topo{
 	height: 150px;
 	background-color: blue
 }
+
 #tituloLogo{
 	float: left;
 }
+
 #menu{
 	height: 50px;
 	background-color: gray;
 	list-style: none;
+	position: fixed;
+	right: 120px;
+
 }
 #interesses{
 	background-color:  lightgreen
-	
-
-
 
 }
 #experiencias{
@@ -55,7 +58,7 @@
 	position: relative;
 	width:500% ;
 	margin:0;
-	left:0 ;
+	left:0;
 	animation: 20s slides infinite;
 }
 #slides figure  img {
