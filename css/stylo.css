@@ -23,7 +23,21 @@
 	list-style: none;
 	position: fixed;
 	right: 120px;
+	border-bottom: 2px solid #222;
 
+
+
+}
+#foto {
+	right: 220px;
+	left: 220px;
+}
+a {
+	text-decoration: none;
+}
+
+#home {
+	color:#fc8c03
 }
 #interesses{
 	background-color:  lightgreen
@@ -41,6 +55,7 @@
 	display: inline-block;
 	background-color: #dddddd;
 	padding: 2px;
+
 }
 #corpo{
 	height: 880px;
@@ -53,6 +68,7 @@
 }
 #slides{
 	overflow: hidden;
+	background-position: center;
 }
 #slides figure {
 	position: relative;
@@ -82,8 +98,13 @@
 		left: -200%;
 	}
 	100% {
-		left: -200%;
+		left: 0%;
 	}
 	
 
 }
+#descrito {
+	right: 20px;
+	left: 20px;
+}
+
